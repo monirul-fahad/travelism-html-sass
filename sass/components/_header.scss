@@ -1,0 +1,54 @@
+.banner-content{
+
+    max-width: 78rem;
+    top: 20.3rem;
+    left: 70rem;
+    position: absolute;
+
+    &__title{
+        font-size: 10.5rem;
+        line-height: 90%;
+        font-weight: 700;
+    }
+
+    &__paragraph{
+        margin-top: 1.8rem;
+        font-size: 1.8rem;
+        line-height: 180%;
+        opacity: .7;
+    }
+
+    &__search-bar{
+        max-width: 60rem;
+        margin-top: 5.5rem;
+        background-color: $color-white;
+        color: $color-black;
+
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+
+        padding: 2.5rem 0 2.5rem 6rem;
+        border-radius: 5rem;
+
+        span{
+            color: red;
+        }
+    }
+
+    &__search-bar--p{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    &__search-bar--p2{
+        font-size: 1.5rem;
+        color: $color-grey-dark-2;
+    }
+    &__search-bar--icon{
+        background: $color-primary-dark;
+        color: $color-white;
+        font-size: 2rem;
+        padding: 1.2rem;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,230 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 56.26em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+@media only screen and (max-width: 56.26em) {
+  body {
+    padding: 0;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+.section-padding {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 10rem;
+}
+
+.title-heading-1 {
+  font-size: 4.5rem;
+  color: #192227;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 108%;
+  letter-spacing: .2rem;
+}
+
+.title-heading-2 {
+  font-size: 4.5rem;
+  color: #E5E5E5;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 108%;
+  letter-spacing: .2rem;
+}
+
+.banner-content {
+  max-width: 78rem;
+  top: 20.3rem;
+  left: 70rem;
+  position: absolute;
+}
+
+.banner-content__title {
+  font-size: 10.5rem;
+  line-height: 90%;
+  font-weight: 700;
+}
+
+.banner-content__paragraph {
+  margin-top: 1.8rem;
+  font-size: 1.8rem;
+  line-height: 180%;
+  opacity: .7;
+}
+
+.banner-content__search-bar {
+  max-width: 60rem;
+  margin-top: 5.5rem;
+  background-color: #fff;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5rem 0 2.5rem 6rem;
+  border-radius: 5rem;
+}
+
+.banner-content__search-bar span {
+  color: red;
+}
+
+.banner-content__search-bar--p {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.banner-content__search-bar--p2 {
+  font-size: 1.5rem;
+  color: #999;
+}
+
+.banner-content__search-bar--icon {
+  background: #192227;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+.about-images {
+  position: relative;
+}
+
+.about-images__single {
+  position: absolute;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.about-images__single--1 {
+  top: 0;
+}
+
+.about-images__single--2 {
+  right: 0;
+  top: 5rem;
+}
+
+.about-images__single--3 {
+  top: 20rem;
+}
+
+.row {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 56.26em) {
+  .row {
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row [class^="col-"] {
+  float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem;
+}
+
+@media only screen and (max-width: 56.26em) {
+  .row [class^="col-"]:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 56.26em) {
+  .row [class^="col-"] {
+    width: 100% !important;
+  }
+}
+
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+
+.row .col-1-of-3 {
+  width: calc((100% - 2 * 6rem) / 3);
+}
+
+.row .col-2-of-3 {
+  width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem) / 4);
+}
+
+.row .col-2-of-4 {
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+
+.row .col-3-of-4 {
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}
+
+.banner-section {
+  height: 100vh;
+  background-image: url(/images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.about-section {
+  background-color: #E5E5E5;
+  height: 70rem;
+}
+/*# sourceMappingURL=main.css.map */

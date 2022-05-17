@@ -1,0 +1,23 @@
+.section-padding{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 10rem;
+}
+
+.title-heading-1{
+    font-size: 4.5rem;
+    color: $color-primary-dark;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 108%;
+    letter-spacing: .2rem;
+}
+
+.title-heading-2{
+    font-size: 4.5rem;
+    color: $color-primary-light;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 108%;
+    letter-spacing: .2rem;
+}

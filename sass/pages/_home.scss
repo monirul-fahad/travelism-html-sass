@@ -1,0 +1,13 @@
+.banner-section{
+    height: 100vh;
+    background-image: url(/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $color-white;
+}
+
+.about-section{
+   background-color: $color-primary-light;
+   height: 70rem;
+}
