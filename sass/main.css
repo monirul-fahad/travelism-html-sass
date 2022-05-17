@@ -44,12 +44,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
+  color: #191919;
 }
 
 .section-padding {
   padding-left: 7rem;
   padding-right: 7rem;
   padding-top: 10rem;
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
 .title-heading-1 {
@@ -106,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 60rem;
   margin-top: 5.5rem;
   background-color: #fff;
-  color: #000;
+  color: #191919;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,8 +177,61 @@ h1, h2, h3, h4, h5, h6 {
   top: 20rem;
 }
 
+.recommended-topic {
+  margin-bottom: 3rem;
+}
+
+.recommended-topic-white {
+  margin-right: 1rem;
+  padding: .7rem 1.5rem;
+  background-color: #fff;
+  color: #191919;
+  border: 1px solid #ECECEC;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.recommended-topic-black {
+  margin-right: 1rem;
+  padding: .7rem 1.5rem;
+  background-color: #192227;
+  color: #fff;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.recommended-places {
+  border: 1px solid #eee;
+  border-radius: 16px;
+}
+
+.recommended-places:hover {
+  -webkit-box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.08);
+          box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.recommended-places__img {
+  width: 100%;
+}
+
+.recommended-places__title {
+  font-size: 1.8rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.recommended-places__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+
 .row {
-  max-width: 124rem;
+  max-width: 130rem;
   margin: 0 auto;
 }
 
