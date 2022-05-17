@@ -11,6 +11,7 @@
     font-weight: 700;
     line-height: 108%;
     letter-spacing: .2rem;
+    margin-bottom: 2.2rem;
 }
 
 .title-heading-2{
@@ -20,4 +21,19 @@
     font-weight: 700;
     line-height: 108%;
     letter-spacing: .2rem;
+    margin-bottom: 2.2rem;
+}
+
+.btn{
+    &,
+    &:link,
+    &:visited {
+        padding: 1.5rem 2.5rem;
+        background-color: $color-secondary;
+        color: $color-white;
+        border: none;
+        border-radius: .5rem;
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
 }

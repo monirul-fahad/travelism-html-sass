@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 108%;
   letter-spacing: .2rem;
+  margin-bottom: 2.2rem;
 }
 
 .title-heading-2 {
@@ -68,6 +69,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 108%;
   letter-spacing: .2rem;
+  margin-bottom: 2.2rem;
+}
+
+.btn, .btn:link, .btn:visited {
+  padding: 1.5rem 2.5rem;
+  background-color: #C90100;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
 }
 
 .banner-content {
@@ -126,6 +138,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
   padding: 1.2rem;
   border-radius: 50%;
+}
+
+.about-content {
+  padding: 12rem 0;
+}
+
+.about-content__paragraph {
+  color: #777;
+  font-size: 1.3rem;
+  line-height: 180%;
+  margin-bottom: 1.2rem;
 }
 
 .about-images {
@@ -224,7 +247,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-section {
-  background-color: #E5E5E5;
-  height: 70rem;
+  height: 65rem;
 }
 /*# sourceMappingURL=main.css.map */
