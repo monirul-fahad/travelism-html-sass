@@ -1,0 +1,53 @@
+.footer {
+    background-color: $color-primary-dark;
+    color: $color-grey-dark-1;
+    overflow: hidden;
+    &__top {
+      overflow: hidden;
+      padding: 11rem 0 6.5rem 0;
+    }
+    &__logo {
+      font-size: 4.8rem;
+    }
+    &__title {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 2.3rem;
+      color: $color-white;
+    }
+    ul {
+      li {
+        list-style: none;
+        font-size: $default-font-size;
+        margin-bottom: 1rem;
+        a {
+          color: $color-grey-dark-1;
+          text-decoration: none;
+        }
+        &:hover {
+            color: $color-white;
+        }
+      }
+    }
+    &__bottom {
+      padding: 5rem 0;
+      border-top: 1px solid $color-grey-dark-1;
+      &__content {
+        p {
+          display: inline-block;
+          font-size: 16px;
+        }
+        ul {
+          display: inline-block;
+          float: right;
+          li {
+            display: inline-block;
+            font-size: 12px;
+            &:not(:last-child) {
+              margin-right: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
