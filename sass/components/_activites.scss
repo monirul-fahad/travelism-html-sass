@@ -1,0 +1,76 @@
+.activites-section {
+
+&__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.2rem;
+
+    h2{
+        margin-bottom: 0 !important;
+    }
+}
+
+
+    &__images {
+      position: relative;
+
+      &--details{
+        margin-top: -85px;
+        margin-left: 40px;
+
+        h3{
+            color: $color-primary-light;
+            font-size: 3rem;
+        }
+
+        p{
+            color: $color-grey-dark-2;
+            font-size: 1.3rem;
+        }
+    }
+    }
+  
+    &__images-1 {
+      position: absolute;
+      width: 49%;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      img {
+        width:100%;
+      }
+    }
+    &__images-2 {
+      position: absolute;
+      width: 49%;
+      top: 0;
+      right: 0;
+      display: inline-block;
+      img {
+        width:100%;
+      }
+    }
+    &__images-3 {
+      position: absolute;
+      width: 23.5%;
+      top: 26.8rem;
+      right: 29.5rem;
+      display: inline-block;
+      img {
+        width: 100%;
+      }
+    }
+    &__images-4 {
+      position: absolute;
+      width: 23.5%;
+      top: 26.8rem;
+      right: 0;
+      display: inline-block;
+      img {
+        width: 100%;
+      }
+    }
+
+   
+  }
+  

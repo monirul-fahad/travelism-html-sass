@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .title-heading-2 {
   font-size: 4.5rem;
-  color: #E5E5E5;
+  color: #FFFFFF;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 108%;
@@ -85,6 +85,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2rem;
 }
 
+.btn-2, .btn-2:link, .btn-2:visited {
+  padding: 1.5rem 2.5rem;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #999;
+  border-radius: .5rem;
+  font-size: 1.3rem;
+}
+
 .banner-content {
   max-width: 78rem;
   top: 20.3rem;
@@ -95,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-content__title {
   font-size: 10.5rem;
   line-height: 90%;
-  font-weight: 700;
+  color: #FFFFFF;
 }
 
 .banner-content__paragraph {
@@ -201,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .recommended-places {
-  border: 1px solid #eee;
+  border: 1px solid #EDEDED;
   border-radius: 16px;
 }
 
@@ -228,6 +237,272 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.recommended-places__rating .fa-solid {
+  color: goldenrod;
+}
+
+.recommended-places__location span {
+  color: #ACACAC;
+}
+
+.recommended-places__location .fa-solid {
+  background-color: #ECECEC;
+  padding: .7rem;
+  border-radius: .7rem;
+}
+
+.activites-section__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2.2rem;
+}
+
+.activites-section__header h2 {
+  margin-bottom: 0 !important;
+}
+
+.activites-section__images {
+  position: relative;
+}
+
+.activites-section__images--details {
+  margin-top: -85px;
+  margin-left: 40px;
+}
+
+.activites-section__images--details h3 {
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+
+.activites-section__images--details p {
+  color: #999;
+  font-size: 1.3rem;
+}
+
+.activites-section__images-1 {
+  position: absolute;
+  width: 49%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.activites-section__images-1 img {
+  width: 100%;
+}
+
+.activites-section__images-2 {
+  position: absolute;
+  width: 49%;
+  top: 0;
+  right: 0;
+  display: inline-block;
+}
+
+.activites-section__images-2 img {
+  width: 100%;
+}
+
+.activites-section__images-3 {
+  position: absolute;
+  width: 23.5%;
+  top: 26.8rem;
+  right: 29.5rem;
+  display: inline-block;
+}
+
+.activites-section__images-3 img {
+  width: 100%;
+}
+
+.activites-section__images-4 {
+  position: absolute;
+  width: 23.5%;
+  top: 26.8rem;
+  right: 0;
+  display: inline-block;
+}
+
+.activites-section__images-4 img {
+  width: 100%;
+}
+
+.subscribe-content {
+  height: 605px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscribe-content__paragraph {
+  color: #777;
+  font-size: 1.3rem;
+  line-height: 180%;
+  margin-bottom: 1.2rem;
+}
+
+.subscribe-content__inputbox {
+  max-width: 40rem;
+  margin-top: 3rem;
+  background-color: #fff;
+  color: #191919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3rem 0 .3rem 2rem;
+  border: 1px solid #EDEDED;
+  border-radius: 5rem;
+}
+
+.subscribe-content__inputbox--icon {
+  background: #192227;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.2rem;
+  border-radius: 50%;
+  margin-right: .7rem;
+}
+
+.subscribe-images {
+  position: relative;
+  height: 605px;
+}
+
+.subscribe-images__single {
+  position: absolute;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.subscribe-images__single--1 {
+  top: 10rem;
+  left: 1rem;
+}
+
+.subscribe-images__single--2 {
+  top: 0;
+  right: 0;
+}
+
+.subscribe-images__single--3 {
+  top: 30rem;
+  right: 0;
+}
+
+.popular-topic {
+  margin-bottom: 3rem;
+}
+
+.popular-topic-white {
+  margin-right: 1rem;
+  padding: .7rem 1.5rem;
+  background-color: #fff;
+  color: #191919;
+  border: 1px solid #ECECEC;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.popular-topic-black {
+  margin-right: 1rem;
+  padding: .7rem 1.5rem;
+  background-color: #192227;
+  color: #fff;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.popular-places {
+  border: 1px solid #EDEDED;
+  border-radius: 16px;
+}
+
+.popular-places:hover {
+  -webkit-box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.08);
+          box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.popular-places__img {
+  width: 100%;
+}
+
+.popular-places__title {
+  font-size: 1.8rem;
+  padding: .5rem 1.5rem 1rem 1.5rem;
+}
+
+.popular-places__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1.5rem 0rem 1.5rem;
+}
+
+.popular-places__details--1 span {
+  color: #192227;
+}
+
+.popular-places__details--1 .fa-solid {
+  background-color: #ECECEC;
+  padding: .5rem;
+  border-radius: .7rem;
+}
+
+.popular-places__details--1:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.popular-places__rating .fa-solid {
+  color: goldenrod;
+}
+
+.popular-places__location span {
+  color: #192227;
+}
+
+.popular-places__location .fa-solid {
+  background-color: #ECECEC;
+  padding: .5rem;
+  border-radius: .7rem;
+}
+
+.popular-places__location:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.popular-places__price {
+  border-top: 1px solid #EDEDED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .7rem 1.5rem 1.2rem 1.5rem;
 }
 
 .row {
@@ -304,5 +579,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-section {
   height: 65rem;
+}
+
+.recommended-section {
+  margin-bottom: 16rem;
+}
+
+.activites-section {
+  background-color: #192227;
+  height: 80rem;
+}
+
+.subscribe-section {
+  padding-bottom: 5rem;
+}
+
+.popular-section {
+  margin-bottom: 16rem;
 }
 /*# sourceMappingURL=main.css.map */
