@@ -492,6 +492,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3rem;
 }
 
+.review-section {
+  color: #FFFFFF;
+}
+
+.review-section__left {
+  width: 50%;
+  background-color: #192227;
+}
+
+.review-section__right {
+  width: 50%;
+  float: right;
+}
+
+.review-section__right img {
+  width: 100%;
+}
+
+.review-section__user img {
+  width: 60px;
+}
+
 .row {
   max-width: 130rem;
   margin: 0 auto;
@@ -644,5 +666,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .popular-section {
   margin-bottom: 16rem;
+}
+
+.review-section {
+  height: 90rem;
 }
 /*# sourceMappingURL=main.css.map */

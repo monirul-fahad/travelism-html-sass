@@ -1,0 +1,23 @@
+.review-section{
+    color: $color-primary-light;
+    &__left{
+        width: 50%;
+        background-color: $color-primary-dark;
+    }
+
+    &__right{
+        width: 50%;
+        float: right;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    &__user{
+        img{
+            width:60px;
+        }
+    }
+
+}
