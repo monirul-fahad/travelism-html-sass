@@ -27,7 +27,24 @@
   </head>
   <body>
     <header class="banner-section">
-      <h1>This is header</h1>
+      <div class="navigation">
+        <h2>Travelism</h2>
+        <div class="navigation__twopart">
+          <ul class="navigation__middle">
+            <li><a href="">Home</a></li>
+            <li><a href="">Destination</a></li>
+            <li><a href="">Activities</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul >
+          <u  class="navigation__middle">
+            <li><a href="">Log In</a></li>
+            <li><a href=""></a>Sign in</li>
+          </u>
+        </div>
+
+      </div>
       <div class="banner-content">
         <h1 class="banner-content__title">Discover Your 
           Destination</h1>
@@ -72,12 +89,18 @@
         <h2 class="title-heading-1">
           Recommended destination
         </h2>
-        <div class="recommended-topic">
+        <div class="recommended-topic before-arrow">
+        <div>
           <span class="recommended-topic-black"> All </span>
           <span class="recommended-topic-white"> Adventure </span>
           <span class="recommended-topic-white"> Beach </span>
           <span class="recommended-topic-white"> Cultural </span>
           <span class="recommended-topic-white"> Popular </span>
+        </div>
+        <div class="arrow">
+          <span  class="arrow-1"><</span>
+          <span class="arrow-2">></span>
+        </div>
         </div>
         <div class="row">
 
@@ -200,9 +223,15 @@
       </section>
 
       <section class="popular-section section-padding">
-        <h2 class="title-heading-1">
-          Popular packages
-        </h2>
+        <div class="before-arrow">
+          <h2 class="title-heading-1">
+            Popular packages
+          </h2>
+          <div class="arrow">
+            <span  class="arrow-1"><</span>
+            <span class="arrow-2">></span>
+          </div>
+        </div>
         <div class="row">
           <div class="col-1-of-4 popular-places">
             <img class="popular-places__img" src="/images/img-81.png" alt="">
@@ -303,22 +332,22 @@
       </section>
 
       <section class="review-section">
-<div class="section-padding">
+<div class="review-section__part">
   <div class="review-section__left">
     <h2 class="review-section__title">Top Travel Reviews</h2>
-    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    <span class="review-section__star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
     <h3>Amazing Customer Service</h3>
-    <p>Sed dignissim nisl pellentesque ut sed dapibus nam. Consectetur pellentesque nulla pretium, elit, elementum, sapien. Sit semper eget hendrerit ornare magna aliquet sere. Nec aliquet odio turpis pretium ut. Ac elit ac non, in sagittis netus ac in. Purus suada sed neque sed ut eu auctor mi enim euismod egestas enim gravida posuere.</p>
+    <p>Sed dignissim nisl pellentesque ut sed dapibus nam. Consectetur pellentesque nulla pretium, elit, elementum, sapien. Sit semper eget hendrerit ornare magna aliquet sere. Nec aliquet odio turpis pretium ut. Ac elit ac non, in sagittis netus ac in. Purus suada sed neque sed ut eu auctor mi enim euismod egestas enim gravida posuere.Sed dignissim nisl pellentesque ut sed dapibus nam. Consectetur pellentesque nulla pretium, elit, elementum, sapien. Sit semper eget hendrerit ornare magna aliquet sere. Nec aliquet odio turpis pretium ut. Ac elit ac non, in sagittis netus ac in. Purus suada sed neque sed ut eu auctor mi enim euismod egestas enim gravida posuere.Sed dignissim nisl pellentesque ut sed dapibus nam. Consectetur pellentesque nulla pretium, elit, elementum, sapien. Sit semper eget hendrerit ornare magna aliquet sere.</p>
     <div class="review-section__user">
-      <div>
+      <div class="review-section__user--main">
         <img src="images/Ellipse-7.png" alt="">
       <div>
-        <h5>Nicolas Mandy</h5>
+        <p>Nicolas Mandy</p>
         <p>United State</p>
       </div>
       </div>
       <div>
-        <p>icon</p>
+       <span> <i class="fa-solid fa-arrow-left"></i> <i class="fa-solid fa-pipe"></i> <i class="fa-solid fa-arrow-right"></i></span>
       </div>
     </div>
   </div>
@@ -329,9 +358,15 @@
       </section>
 
       <section class="special-section section-padding">
-        <h2 class="title-heading-1">
-          Special offers
-        </h2>
+        <div class="before-arrow">
+          <h2 class="title-heading-1">
+            Special Offers
+          </h2>
+          <div class="arrow">
+            <span  class="arrow-1"><</span>
+            <span class="arrow-2">></span>
+          </div>
+        </div>
         <div class="row">
           <div class="col-1-of-4 popular-places">
             <img class="popular-places__img" src="/images/img-131.png" alt="">

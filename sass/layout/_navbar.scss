@@ -1,0 +1,26 @@
+.navigation{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 2rem;
+    max-width: $grid-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__twopart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__middle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__last{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

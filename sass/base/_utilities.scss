@@ -1,54 +1,80 @@
-.section-padding{
-    padding-left: 7rem;
-    padding-right: 7rem;
-    padding-top: 10rem;
-    max-width: $grid-width;
-    margin: 0 auto;
+.section-padding {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 10rem;
+  max-width: $grid-width;
+  margin: 0 auto;
 }
 
-.title-heading-1{
-    font-size: 4.5rem;
+.title-heading-1 {
+  font-size: 4.5rem;
+  color: $color-primary-dark;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 108%;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.title-heading-2 {
+  font-size: 4.5rem;
+  color: $color-primary-light;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 108%;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    padding: 1.5rem 2.5rem;
+    background-color: $color-secondary;
+    color: $color-white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+}
+
+.btn-2 {
+  &,
+  &:link,
+  &:visited {
+    padding: 1.5rem 2.5rem;
+    background-color: transparent;
+    color: $color-white;
+    border: 1px solid $color-grey-dark-2;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+.before-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  &-1 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
     color: $color-primary-dark;
-    text-transform: capitalize;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 108%;
-    letter-spacing: .2rem;
-    margin-bottom: 2.2rem;
-}
-
-.title-heading-2{
-    font-size: 4.5rem;
+    border: 1px solid #ECECEC;
+  }
+  &-2 {
+    background-color: $color-primary-dark;
+    padding: 10px;
+    border-radius: 50%;
     color: $color-primary-light;
-    text-transform: capitalize;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 108%;
-    letter-spacing: .2rem;
-    margin-bottom: 2.2rem;
-}
-
-.btn{
-    &,
-    &:link,
-    &:visited {
-        padding: 1.5rem 2.5rem;
-        background-color: $color-secondary;
-        color: $color-white;
-        border: none;
-        border-radius: .5rem;
-        font-size: 1.3rem;
-        margin-top: 2rem;
-    }
-}
-
-.btn-2{
-    &,
-    &:link,
-    &:visited {
-        padding: 1.5rem 2.5rem;
-        background-color: transparent;
-        color: $color-white;
-        border: 1px solid $color-grey-dark-2;
-        border-radius: .5rem;
-        font-size: 1.3rem;
-    }
+  }
 }
